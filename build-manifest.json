@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "audience": "public",
+  "basePath": "/knowledge-site/",
+  "revision": "5132ecfe3d0a71d447a8670dc949d35e42c931c6",
+  "entries": [
+    {
+      "id": "agent-workflow",
+      "contentHash": "b7ba22ac0b114888e14c69ee1ecf153ca1786db1380b622ac2e5db6863968f99"
+    },
+    {
+      "id": "evidence-notes",
+      "contentHash": "c0f2ae184d2c78a781b3ab9a98477fa04e33a7abb2f1a386d191ce857ce66a77"
+    },
+    {
+      "id": "knowledge-design",
+      "contentHash": "9eca4672ccc473d688deeea0326e31cbfd198b729591b899f831d1cf1a1c66c0"
+    },
+    {
+      "id": "static-search",
+      "contentHash": "0216a0bb61779d2f95dba886aa5d4ea9e84ccba9bb6f1572863643b9d65c5baf"
+    }
+  ],
+  "catalogHash": "3eca9309e5fa715b35ced9929a3466fda80105110380c43a848cff77f08fd7a9"
+}

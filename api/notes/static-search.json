@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "static-search",
+  "title": "中文搜索与内容索引",
+  "summary": "了解静态全文检索能读取什么，交互内容如何补充检索文字，以及附件与正文索引的区别。",
+  "topic": "knowledge",
+  "tags": [
+    "中文搜索",
+    "Pagefind"
+  ],
+  "format": "markdown",
+  "status": "published",
+  "visibility": "public",
+  "evidence": "illustrative",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
+  "reviewed": "2026-10-09",
+  "reviewAfter": "2027-01-09",
+  "sources": [
+    {
+      "title": "Pagefind multilingual search",
+      "url": "https://pagefind.app/docs/multilingual/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Pagefind indexing",
+      "url": "https://pagefind.app/docs/indexing/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "related": [
+    "knowledge-design"
+  ],
+  "contentHash": "0216a0bb61779d2f95dba886aa5d4ea9e84ccba9bb6f1572863643b9d65c5baf",
+  "sourcePath": "content/knowledge/static-search/index.md",
+  "path": "/notes/static-search/",
+  "backlinks": [
+    "evidence-notes"
+  ],
+  "url": "/knowledge-site/notes/static-search/",
+  "content": "中文搜索与内容索引\n\n本页是一篇检索示例，同时说明 Pagefind 的基本使用边界。它包含中文、英文术语和一份可直接访问的小型附件。\n\n搜索什么\n\nPagefind 可以读取静态 HTML 中的文字，并为浏览器生成搜索索引。它的扩展发行版支持中文、日文、韩文分词。\n\n可以试着搜索“中文搜索”“证据”“Agent”或“Pagefind”。标题、正文和标签会参与本知识库的检索。\n\n动态内容如何被发现\n\n如果重要结论只存在于 Canvas 绘图、页面脚本或网络请求返回的数据中，静态索引不一定能读取。作者应保留一段静态说明，或提供独立的检索正文。\n\n附件与访问地址\n\n附件可以放在条目自身的 assets 目录，例如这份 示例数据。附件有可直接访问的 URL，但不会因此自动获得全文搜索能力。\n\n实际验收关注什么\n\n搜索功能需要在网页中实际查询。应检查能否找到目标条目、结果是否指向正确页面，以及筛选标签后是否只保留符合条件的结果。\n\n这篇文章用于功能演示；未给出吞吐量、延迟或检索准确率等性能结论。"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "evidence-notes",
+  "title": "研究笔记里的事实、推断与未知",
+  "summary": "一篇研究总结如何表达证据强度、保留适用条件，并区分内容更新与事实复核。",
+  "topic": "research",
+  "tags": [
+    "研究方法",
+    "证据"
+  ],
+  "format": "markdown",
+  "status": "published",
+  "visibility": "public",
+  "evidence": "illustrative",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
+  "reviewed": "2026-10-09",
+  "reviewAfter": "2027-01-09",
+  "sources": [
+    {
+      "title": "Pagefind overview",
+      "url": "https://pagefind.app/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "related": [
+    "static-search"
+  ],
+  "contentHash": "c0f2ae184d2c78a781b3ab9a98477fa04e33a7abb2f1a386d191ce857ce66a77",
+  "sourcePath": "content/research/evidence-notes/index.md",
+  "path": "/notes/evidence-notes/",
+  "backlinks": [
+    "knowledge-design"
+  ],
+  "url": "/knowledge-site/notes/evidence-notes/",
+  "content": "研究笔记里的事实、推断与未知\n\n这是一篇内容组织示例。下面的分类用于帮助读者判断结论强度，不是任何现有实验的评测结果。\n\n事实应能够回到来源\n\n一条可核验的事实需要说明对象、条件和日期。例如，“官方文档描述 Pagefind 会索引构建后的 HTML”，可以附上官方页面。它不能直接证明某份资料已经被成功索引。\n\n推断需要交代依据\n\n“静态网站适合当前个人研究笔记”是根据使用需求作出的设计判断。应写清楚需求，而不把这个判断表述为普遍结论。\n\n类型\n示例表达\n应保留的信息\n\n事实\n官方资料明确描述某项能力\n来源、日期、适用版本\n\n推断\n根据现有条件，预计这种方案更合适\n前提与推理依据\n\n未知\n还没有验证真实中文材料的查询效果\n待检查的问题\n\n更新时间与复核时间\n\n修改措辞会改变更新时间。只有重新检查证据，才应该更新复核时间。这两个日期回答不同的问题。\n\n一个可执行的阅读习惯\n\n读到重要结论时，检查它对应的是文档说明、实际运行证据还是作者判断。保存能够支撑结论的原文入口，并保留不确定性。\n\n相关示例：中文搜索与内容索引。"
+}

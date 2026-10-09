@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "audience": "public",
+  "basePath": "/knowledge-site/",
+  "entries": [
+    {
+      "schemaVersion": 1,
+      "id": "agent-workflow",
+      "title": "Agent 如何维护一篇知识条目",
+      "summary": "可点击的维护示意：界定问题、保留证据、验证内容，再交付一份可以继续维护的记录。",
+      "topic": "agents",
+      "tags": [
+        "Agent",
+        "知识管理"
+      ],
+      "format": "html",
+      "status": "published",
+      "visibility": "public",
+      "evidence": "illustrative",
+      "created": "2026-10-09",
+      "updated": "2026-10-09",
+      "reviewed": "2026-10-09",
+      "reviewAfter": "2027-01-09",
+      "sources": [],
+      "related": [
+        "knowledge-design"
+      ],
+      "contentHash": "b7ba22ac0b114888e14c69ee1ecf153ca1786db1380b622ac2e5db6863968f99",
+      "sourcePath": "content/agents/agent-workflow/index.html",
+      "path": "/notes/agent-workflow/",
+      "backlinks": [
+        "knowledge-design"
+      ],
+      "url": "/knowledge-site/notes/agent-workflow/"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evidence-notes",
+      "title": "研究笔记里的事实、推断与未知",
+      "summary": "一篇研究总结如何表达证据强度、保留适用条件，并区分内容更新与事实复核。",
+      "topic": "research",
+      "tags": [
+        "研究方法",
+        "证据"
+      ],
+      "format": "markdown",
+      "status": "published",
+      "visibility": "public",
+      "evidence": "illustrative",
+      "created": "2026-10-09",
+      "updated": "2026-10-09",
+      "reviewed": "2026-10-09",
+      "reviewAfter": "2027-01-09",
+      "sources": [
+        {
+          "title": "Pagefind overview",
+          "url": "https://pagefind.app/",
+          "accessed": "2026-10-09"
+        }
+      ],
+      "related": [
+        "static-search"
+      ],
+      "contentHash": "c0f2ae184d2c78a781b3ab9a98477fa04e33a7abb2f1a386d191ce857ce66a77",
+      "sourcePath": "content/research/evidence-notes/index.md",
+      "path": "/notes/evidence-notes/",
+      "backlinks": [
+        "knowledge-design"
+      ],
+      "url": "/knowledge-site/notes/evidence-notes/"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "knowledge-design",
+      "title": "让文件成为知识库的长期资产",
+      "summary": "用稳定身份连接正文、来源和附件。Markdown 与独立 HTML 共用同一份目录，并保留各自的表达方式。",
+      "topic": "knowledge",
+      "tags": [
+        "知识管理",
+        "文件组织"
+      ],
+      "format": "markdown",
+      "status": "published",
+      "visibility": "public",
+      "evidence": "illustrative",
+      "created": "2026-10-09",
+      "updated": "2026-10-09",
+      "reviewed": "2026-10-09",
+      "reviewAfter": "2027-01-09",
+      "sources": [
+        {
+          "title": "Eleventy HTML support",
+          "url": "https://www.11ty.dev/docs/languages/html/",
+          "accessed": "2026-10-09"
+        },
+        {
+          "title": "Eleventy permalinks",
+          "url": "https://www.11ty.dev/docs/permalinks/",
+          "accessed": "2026-10-09"
+        }
+      ],
+      "related": [
+        "agent-workflow",
+        "evidence-notes"
+      ],
+      "contentHash": "9eca4672ccc473d688deeea0326e31cbfd198b729591b899f831d1cf1a1c66c0",
+      "sourcePath": "content/knowledge/knowledge-design/index.md",
+      "path": "/notes/knowledge-design/",
+      "backlinks": [
+        "agent-workflow",
+        "static-search"
+      ],
+      "url": "/knowledge-site/notes/knowledge-design/"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "static-search",
+      "title": "中文搜索与内容索引",
+      "summary": "了解静态全文检索能读取什么，交互内容如何补充检索文字，以及附件与正文索引的区别。",
+      "topic": "knowledge",
+      "tags": [
+        "中文搜索",
+        "Pagefind"
+      ],
+      "format": "markdown",
+      "status": "published",
+      "visibility": "public",
+      "evidence": "illustrative",
+      "created": "2026-10-09",
+      "updated": "2026-10-09",
+      "reviewed": "2026-10-09",
+      "reviewAfter": "2027-01-09",
+      "sources": [
+        {
+          "title": "Pagefind multilingual search",
+          "url": "https://pagefind.app/docs/multilingual/",
+          "accessed": "2026-10-09"
+        },
+        {
+          "title": "Pagefind indexing",
+          "url": "https://pagefind.app/docs/indexing/",
+          "accessed": "2026-10-09"
+        }
+      ],
+      "related": [
+        "knowledge-design"
+      ],
+      "contentHash": "0216a0bb61779d2f95dba886aa5d4ea9e84ccba9bb6f1572863643b9d65c5baf",
+      "sourcePath": "content/knowledge/static-search/index.md",
+      "path": "/notes/static-search/",
+      "backlinks": [
+        "evidence-notes"
+      ],
+      "url": "/knowledge-site/notes/static-search/"
+    }
+  ]
+}

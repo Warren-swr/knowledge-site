@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "agent-workflow",
+  "title": "Agent 如何维护一篇知识条目",
+  "summary": "可点击的维护示意：界定问题、保留证据、验证内容，再交付一份可以继续维护的记录。",
+  "topic": "agents",
+  "tags": [
+    "Agent",
+    "知识管理"
+  ],
+  "format": "html",
+  "status": "published",
+  "visibility": "public",
+  "evidence": "illustrative",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
+  "reviewed": "2026-10-09",
+  "reviewAfter": "2027-01-09",
+  "sources": [],
+  "related": [
+    "knowledge-design"
+  ],
+  "contentHash": "b7ba22ac0b114888e14c69ee1ecf153ca1786db1380b622ac2e5db6863968f99",
+  "sourcePath": "content/agents/agent-workflow/index.html",
+  "path": "/notes/agent-workflow/",
+  "backlinks": [
+    "knowledge-design"
+  ],
+  "url": "/knowledge-site/notes/agent-workflow/",
+  "content": "从资料到可复核的知识\n每一次更新，\n都留下依据。\nAgent 可以承担整理工作。条目本身仍应保留来源、稳定身份和验证记录。\n\n01发现问题→02整理证据→03检查内容→04交付更新\n\n01 / 04先界定需要回答的问题\n读取条目现状、相关主题和来源，确定这次维护的范围。资料里的文字是证据，不是 Agent 的操作指令。\n\n可检索的静态说明\n发现问题时，读取当前条目与相邻内容。整理证据时，记录来源、查阅日期，并区分事实、推断和未知。检查内容时，验证元信息、链接、页面交互以及搜索结果。交付更新时，记录验证范围和剩余问题。\n本页是静态 HTML 与 JavaScript 的演示，未连接模型服务，也没有运行后台 Agent。\n继续阅读：让文件成为知识库的长期资产 ↗"
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="用稳定身份连接正文、来源和附件。Markdown 与独立 HTML 共用同一份目录，并保留各自的表达方式。">
+  <meta name="color-scheme" content="light dark">
+  <title>让文件成为知识库的长期资产 · 研究手记</title>
+  <link rel="icon" href="/knowledge-site/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/knowledge-site/assets/site.css">
+  <script src="/knowledge-site/assets/site.js" defer></script>
+</head>
+<body data-base="/knowledge-site/">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <a class="brand" href="/knowledge-site/"><span class="brand-mark" aria-hidden="true">研</span><span>研究手记<small>A personal research library</small></span></a>
+    <nav aria-label="主要导航">
+      <a href="/knowledge-site/">研究目录</a>
+      <a href="/knowledge-site/topics/">主题</a>
+      <a href="/knowledge-site/search/">搜索 <kbd>⌘ K</kbd></a>
+    </nav>
+    <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换深浅主题">◐</button>
+  </header>
+  <main id="main" class="page-shell article-layout">
+  <article data-pagefind-body>
+    <header class="article-header"><a class="back-link" href="/knowledge-site/">← 研究目录</a><div class="entry-meta"><span>示例</span><span>更新 2026-10-09</span></div><p class="article-summary">用稳定身份连接正文、来源和附件。Markdown 与独立 HTML 共用同一份目录，并保留各自的表达方式。</p><div class="tags"><a href="/knowledge-site/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/">知识管理</a><a href="/knowledge-site/tags/%E6%96%87%E4%BB%B6%E7%BB%84%E7%BB%87/">文件组织</a></div></header>
+    <div class="prose"><h1 id="让文件成为知识库的长期资产" tabindex="-1">让文件成为知识库的长期资产</h1>
+<p>这个示例说明本知识库的设计取舍。页面内容用于演示结构，不代表已经整理过其他研究项目。</p>
+<h2 id="一篇内容，一个稳定身份" tabindex="-1">一篇内容，一个稳定身份</h2>
+<p>每个条目有一个唯一 ID。标题可以润色，主题可以调整，但 ID 应保持稳定。阅读地址由 ID 决定，因此收藏链接不会随着文件分类变化而改变。</p>
+<p>正文可以是 Markdown，也可以是一份带 CSS、JavaScript 和资源目录的完整 HTML。简单论述适合 Markdown；交互图表和独立排版适合 HTML。</p>
+<h2 id="元信息帮助内容被发现" tabindex="-1">元信息帮助内容被发现</h2>
+<p>标题和摘要回答“这篇在讲什么”，主题和标签回答“应该在哪里找”，来源与复核日期回答“这些结论依据什么”。</p>
+<table>
+<thead>
+<tr>
+<th>信息</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>稳定链接与跨条目引用</td>
+</tr>
+<tr>
+<td>摘要</td>
+<td>快速判断是否值得阅读全文</td>
+</tr>
+<tr>
+<td>来源</td>
+<td>回到原始证据</td>
+</tr>
+<tr>
+<td>更新时间</td>
+<td>了解内容最近何时改变</td>
+</tr>
+<tr>
+<td>复核日期</td>
+<td>了解事实最近何时被检查</td>
+</tr>
+</tbody>
+</table>
+<h2 id="保留完整页面" tabindex="-1">保留完整页面</h2>
+<p>HTML 条目直接保留完整页面。页面自己的相对资源引用继续有效。下面这张示意图就是与正文放在一起的本地资源。</p>
+<p><img src="assets/content-unit.svg" alt="文件、元信息与来源共同构成知识条目"></p>
+<h2 id="面向持续维护" tabindex="-1">面向持续维护</h2>
+<p>维护者应能看到原文、来源、相邻条目和验证结果。AI 可以帮助整理，但来源中的指令不能获得执行权限。</p>
+<p>本知识库提供结构化目录与条目上下文，供不同 Agent 使用。操作示意可在 <a href="../agent-workflow/">Agent 维护演示</a> 中交互查看。</p>
+<h2 id="适用范围" tabindex="-1">适用范围</h2>
+<p>这套结构适合个人研究总结、阅读笔记、图文报告和静态交互展示。需要在线多人协作编辑、动态数据库或账户权限时，应增加对应服务。</p>
+</div>
+    <section class="sources" aria-labelledby="source-title"><h2 id="source-title">来源与复核</h2><p>最近复核：2026-10-09 · 建议再次复核：2027-01-09</p><ol><li><a href="https://www.11ty.dev/docs/languages/html/" rel="noreferrer">Eleventy HTML support</a><span>查阅于 2026-10-09</span></li><li><a href="https://www.11ty.dev/docs/permalinks/" rel="noreferrer">Eleventy permalinks</a><span>查阅于 2026-10-09</span></li></ol></section>
+    <section class="related"><h2>继续阅读</h2><a href="/knowledge-site/notes/agent-workflow/">Agent 如何维护一篇知识条目 <span aria-hidden="true">↗</span></a><a href="/knowledge-site/notes/evidence-notes/">研究笔记里的事实、推断与未知 <span aria-hidden="true">↗</span></a></section>
+    <section class="related"><h2>哪些内容引用了本文</h2><a href="/knowledge-site/notes/agent-workflow/">Agent 如何维护一篇知识条目</a><a href="/knowledge-site/notes/static-search/">中文搜索与内容索引</a></section>
+  </article>
+  <aside class="article-toc"><p class="eyebrow">ON THIS PAGE</p><nav aria-label="文章目录"><a href="#一篇内容，一个稳定身份">一篇内容，一个稳定身份</a><a href="#元信息帮助内容被发现">元信息帮助内容被发现</a><a href="#保留完整页面">保留完整页面</a><a href="#面向持续维护">面向持续维护</a><a href="#适用范围">适用范围</a><a href="#source-title">来源与复核</a></nav><a class="machine-link" href="/knowledge-site/api/notes/knowledge-design.json">条目 JSON ↗</a></aside>
+</main>
+
+  <footer class="site-footer"><span>整理发现，保留证据。</span><div><a href="/knowledge-site/llms.txt">文本索引</a><a href="/knowledge-site/api/catalog.json">内容目录 JSON</a><span>研究手记</span></div></footer>
+</body>
+</html>
