@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "audience": "public",
   "basePath": "/knowledge-site/",
-  "revision": "5132ecfe3d0a71d447a8670dc949d35e42c931c6",
+  "revision": "1bc24b9387aa9d24c355d9d4d1c82ab199e2ada5",
   "entries": [
     {
       "id": "agent-workflow",
